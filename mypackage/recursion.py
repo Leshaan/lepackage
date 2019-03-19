@@ -10,8 +10,7 @@ def sum_array(array):
 
 
 
-
-    def fibonacci(n):
+def fibonacci(n):
    '''
    This function returns the nth term in the fibonacci sequence
    '''
@@ -28,8 +27,7 @@ def sum_array(array):
 
 
 
-
-    def factorial(n):
+def factorial(n):
    '''
    Return n!
    '''
@@ -43,7 +41,7 @@ def sum_array(array):
 
 
 
-    def reverse(word):
+def reverse(word):
    '''
    Return word in reverse
    '''
