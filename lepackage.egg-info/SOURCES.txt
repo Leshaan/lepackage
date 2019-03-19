@@ -1,0 +1,10 @@
+README.md
+setup.py
+lepackage.egg-info/PKG-INFO
+lepackage.egg-info/SOURCES.txt
+lepackage.egg-info/dependency_links.txt
+lepackage.egg-info/requires.txt
+lepackage.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/recursion.py
+mypackage/sorting.py
