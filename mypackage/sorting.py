@@ -13,11 +13,12 @@ def bubble_sort(items):
 
 
 
-def merge_sort(items):
 
-    '''Return array of items, sorted in ascending order'''
 
-    def merge(A, B):
+def merge(A, B):
+
+'''Return array of items, sorted in ascending order'''
+
         new_list = []
     while len(A) > 0 and len(B) > 0:
         if A[0] < B[0]:
@@ -34,6 +35,7 @@ def merge_sort(items):
 
     return new_list
 
+def merge_sort(items):
 
     len_i = len(items)
     if len_i == 1:
