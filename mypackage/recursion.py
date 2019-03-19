@@ -4,7 +4,7 @@ def sum_array(array):
 
     if len(array)==0:
        return 0
-   else:
+    else:
        return array[0] + sum_array(array[1:])
 
 
@@ -43,7 +43,7 @@ def sum_array(array):
 
 
 
-        def reverse(word):
+    def reverse(word):
    '''
    Return word in reverse
    '''
