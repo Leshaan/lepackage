@@ -19,7 +19,7 @@ def merge(A, B):
 
     '''Return array of items, sorted in ascending order'''
 
-        new_list = []
+    new_list = []
     while len(A) > 0 and len(B) > 0:
         if A[0] < B[0]:
             new_list.append(A[0])
